@@ -11,14 +11,13 @@ if(isset($_POST['delete_account'])){
 
       $delete = "DELETE FROM user_form WHERE id='$id'";
       mysqli_query($conn, $delete);
-      echo "Account Deleted Successfully!";
+      echo "Deleted Successfully";
 
       header('location:login.php');
 }
 
 
 ?>
-
 
 
 
