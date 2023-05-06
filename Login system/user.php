@@ -21,11 +21,8 @@ if(!isset($_SESSION['user_name'])){
     <body>
         <div class="container">
             <div class="content">
-            <a href="login.php" class="btn">Login</a>
-            <a href="register.php" class="btn">Register</a>
             <a href="logout.php" class="btn">Logout</a>
             <a href="delete.php" class="btn">Delete Account</a>
-
             </div>
         </div>
     </body>
