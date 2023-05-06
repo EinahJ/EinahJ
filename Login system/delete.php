@@ -3,9 +3,7 @@
 @include 'config.php';
 session_start();
 
-
 if(isset($_POST['delete_account'])){
-
 
       $id = $_SESSION['id'];
 
@@ -15,12 +13,6 @@ if(isset($_POST['delete_account'])){
 
       header('location:login.php');
 }
-
-
-?>
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
